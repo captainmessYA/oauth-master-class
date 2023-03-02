@@ -38,7 +38,7 @@ window.onload = () => {
     {
         parentId: "buttonContainer",
         view: "button",
-        buttonTheme: "light",
+        buttonTheme: "dark",
         buttonSize: "xs",
         buttonBorderRadius: 20,
       }
