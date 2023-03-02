@@ -35,13 +35,14 @@ window.onload = () => {
       .catch((error) => console.log("Что-то пошло не так: ", error));
   };
   document.getElementById("button").onclick = () => {
-    window.YaAuthSuggest.init(
+    YaAuthSuggest.init(
       {
          client_id: '9873d42f585b4d5b9eceb418013d9fc4', 
          response_type: 'token',
          redirect_uri: 'https://oauth-master-class-alpha.vercel.app/token.html'
       },
       'https://oauth-master-class-alpha.vercel.app/'
+      
       {
         parentId: "buttonContainer",
         view: "button",
