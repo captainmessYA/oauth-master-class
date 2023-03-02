@@ -35,6 +35,12 @@ window.onload = () => {
       .catch((error) => console.log("Что-то пошло не так: ", error));
     };
   document.getElementById("button").onclick = () => {
-    // TODO button
+    {
+        parentId: "buttonContainer",
+        view: "button",
+        buttonTheme: "light",
+        buttonSize: "xs",
+        buttonBorderRadius: 20,
+      }
   };
 };
